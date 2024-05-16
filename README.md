@@ -24,7 +24,7 @@ git clone https://github.com/ArKaRaShi/treasure-hunt-game.git
 - Click on individual boxes to dig and uncover their contents.
 - Each dig consumes one attempt, so choose wisely!
 
-5. **Win Big:**
+5. **Earn reward!:**
 - Accumulate as much treasure as you can before running out of attempts.
 - Once all attempts are exhausted, see your total earnings on the summary page.
 
