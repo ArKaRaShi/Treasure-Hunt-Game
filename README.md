@@ -31,7 +31,6 @@ git clone https://github.com/ArKaRaShi/treasure-hunt-game.git
 ## Credits
 
 - **Fonts:** [Pirata One](https://fonts.google.com/specimen/Pirata+One) from Google Fonts
-- **Inspiration:** This project was inspired by [xyz-game](https://github.com/example/xyz-game).
 
 ## License
 
