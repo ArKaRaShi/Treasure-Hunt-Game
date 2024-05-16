@@ -1,6 +1,6 @@
 # Treasure Hunt Game
 
-Welcome to the Treasure Hunt game repository! This interactive web-based game offers players a thrilling experience of uncovering hidden treasures through a series of box digs. Whether you're looking for a quick gaming session or a dose of suspenseful fun, this game has you covered.
+Welcome to the Treasure Hunt game repository! This interactive web-based game offers players a thrilling experience of uncovering hidden treasures through a series of box digs. This game purpose is to play with your friend, close friend, boy friend, girl friend or someone you want to play with. Let's make it fun!
 
 ## Features
 
