@@ -74,6 +74,10 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	function nextPage() {
+		if (pageState != 1) {
+			const button = document.querySelector(".button");
+			button.removeEventListener("click", nextPage);
+		}
 		transitioningPage();
 	}
 
