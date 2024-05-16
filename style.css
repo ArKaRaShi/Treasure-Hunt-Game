@@ -89,7 +89,7 @@ main {
 
 @media screen and (max-width: 400px) {
 	body {
-		font-size: 12px;
+		font-size: 8px;
 	}
 
 	.game-box {
