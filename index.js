@@ -18,6 +18,25 @@ document.addEventListener("DOMContentLoaded", function () {
 	let summationReward;
 	let gameTextState;
 
+	function playTapSound() {
+		let audioContext = new (window.AudioContext || window.AudioContext)();
+		let source = audioContext.createBufferSource();
+
+		fetch("tapsound.mp3")
+			.then((response) => response.arrayBuffer())
+			.then((data) => audioContext.decodeAudioData(data))
+			.then((buffer) => {
+				source.buffer = buffer;
+				source.connect(audioContext.destination);
+				source.start(0);
+			})
+			.catch((e) => console.error("Error with decoding audio data", e));
+	}
+
+	document.addEventListener("click", (Event) => {
+		playTapSound();
+	});
+
 	function initializeGameProperty() {
 		totalBigMoney = 4;
 		lastClickedIndex = -1;
